@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to companyName</h1>
+        <h2>Make your business grow digitally</h2>
+    </header>
+    <div class="nav-bar">⇩
+        <nav>
+            <button>
+                <a href="#about">About Us</a>
+            </button>
+            <button>
+                <a href="#services">Services</a>
+            </button>
+            <button>
+                <a href="./contacts.html">Contact Us</a>
+            </button>
+            <button>
+                <a href="#goal">Our Vision</a>
+            </button>
+            <button>
+                <a href="./projects">Our projects</a>
+            </button>
+        </nav>
+    </div>
+    <main>
+        <div id="services" class="container">
+            <h2>What do we have to offer</h2>
+            <ul>
+                <li>Digitising Agri-businesses</li>
+                <li>Sponser job seeking and offering</li>
+                <li>Medicine stock</li>
+                <li>e.t.c</li>
+            </ul>
+        </div>
+        <div id='about' class="container">
+            <h2>About Us</h2>
+            <p>A Malawi based company focused on bring jobs, businesses and others companies to the web.</p>
+            <p id="start">We connect:</p>
+            <ul>
+                <li>Buyers to Sellers</li>
+                <li>Employers and Employees</li>
+                <li>Business to Business</li>
+            </ul>
+        </div>
+        <div id='contacts' class="container">
+            <h2>Contact Us</h2>
+            <ul>
+                <li>Email: desireog71@gmail.com</li>
+            </ul>
+        </div>
+        <div id="goal" class="container">
+            <h2>Our Vision</h2>
+            <p>We believe that cpitalizing internet resources is the future of businesses and companies in the digital era.</p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2026 companyName. All rights reserved.</p>
+    </footer>
+</body>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        height: auto;
+    }
+    header{
+        padding-top: 200px;
+        place-items: center;
+        background-image: url('./picture.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        padding-bottom: 200px;
+        border-radius: 10px;
+    }
+    body{
+        height: auto;
+        margin: 0 auto;
+        display: grid;
+        background: #fff;
+        font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+        border: 32px solid #fff;
+        border-bottom: 32px solid;
+    }
+    main{
+        max-height: auto;
+        max-width: 100%;
+    }
+    .nav-bar{
+        background: #76adc7;
+        border-radius: 8px;
+        text-align: center;
+    }
+    .container{
+        height: auto;
+        color: #fff;
+        max-width: 100%;
+        background: #98b6c4;
+        border: 30px solid #fff;
+        border-radius: 40px;
+        padding: 6%;
+        display: grid;
+    }
+    footer{
+        height: 100%;
+        width: 100%;
+        background: #000;
+        color: #fff;
+    }
+    ul{
+        padding-left: 11%;
+        font-size: 20px;
+    }
+    p{
+        font-size: 25px;
+    }
+    button{
+        padding: 1%;
+        text-align: center;
+        background: #76adc7;
+        border: 2px solid #fff;
+        border-radius: 8px;
+    }
+    nav{
+        display: none;
+        transition: ease-in;
+        transition-duration: 200ms;
+        border-radius: 8px;
+        border: 2px solid #fff;
+        justify-content: space-between;
+        color: rgb(152, 229, 240);
+        background: #98b6c4;
+        padding: 2%;
+        height: fit-content;
+    }
+    .nav-bar{
+        height: auto;
+        width: 100%;
+        border-radius: 10px;
+    }
+    .nav-bar:hover nav{
+        width: 100%;
+        display: flex;
+    }
+    a{
+        color: #fff;
+        font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    }
+</style>
+</html>   
